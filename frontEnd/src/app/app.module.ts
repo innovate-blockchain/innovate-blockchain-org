@@ -6,7 +6,7 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 
-import {LandingPageService} from './services/landing-page.service';
+import { LandingPageService } from './services/landing-page.service';
 
 @NgModule({
   declarations: [

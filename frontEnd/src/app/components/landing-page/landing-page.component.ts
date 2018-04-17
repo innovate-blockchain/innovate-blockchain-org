@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import {LandingPageService} from '../../services/landing-page.service';
+import { LandingPageService } from '../../services/landing-page.service';
+
+import { Leader } from '../../models/Leader';
 
 @Component({
   selector: 'app-landing-page',
@@ -8,9 +10,16 @@ import {LandingPageService} from '../../services/landing-page.service';
 })
 export class LandingPageComponent implements OnInit {
 
-  constructor(landingPageService: LandingPageService) { }
+  constructor(private landingPageService: LandingPageService) { }
+  leaders: Leader[];
 
   ngOnInit() {
+    //this.landingPageService.postLeaders().subscribe();
+    this.landingPageService.getLeaders().subscribe((leaders) => {
+      this.leaders = leaders;
+      console.log("Name " + this.leaders[0].name);
+    });
   }
 
 }
+
