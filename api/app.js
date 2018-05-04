@@ -8,7 +8,6 @@
   mongoose.connect(config.database);
   var indexRouter = require('./routes/index');
   var leadersRouter = require('./routes/leaders');
-
   var app = express();
   var apiRoutes = express.Router();
   // view engine setup
@@ -20,7 +19,6 @@
   app.use(express.urlencoded({ extended: false }));
   app.use(cookieParser());
   app.use(express.static(path.join(__dirname, 'public')));
-
   app.use(function (req,res,next) {
       // Website you wish to allow to connect
       res.setHeader('Access-Control-Allow-Origin', 'http://localhost:4200');
@@ -36,6 +34,8 @@
 
   apiRoutes.use('/', indexRouter);
   apiRoutes.use('/leaders', leadersRouter);
+  apiRoutes.use('/profile_pictures',
+      express.static(path.join(__dirname, 'profile_pictures/')));
   app.use('/api',apiRoutes);
   // catch 404 and forward to error handler
   app.use(function(req, res, next) {
