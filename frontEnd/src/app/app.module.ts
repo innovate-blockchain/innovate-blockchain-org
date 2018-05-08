@@ -8,13 +8,15 @@ import { MaterialModule } from './material.module';
 
 import { AppComponent } from './app.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { HeaderComponent } from './components/header/header.component';
 
 import { LandingPageService } from './services/landing-page.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
