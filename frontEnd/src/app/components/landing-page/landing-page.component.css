@@ -1,0 +1,40 @@
+form {
+    padding-top: 100px;
+}
+#blockchainHeader {
+    color : grey;
+    padding-left: 50px;
+    padding-top: 150px;
+    margin: 0;
+    font-size: 2.7em;
+}
+
+#subtitle {
+    color : gray;
+    font-size: 1.2em;
+    padding-top: 0px;
+    margin: 0;
+    padding-left: 50px;
+}
+#email {
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+#statement {
+    padding-left: 50px;
+    font-size: 0.6em;  
+}
+
+#submitButton {
+    background-color: gray;
+    color: white;
+}
+#emailInput {
+    background-color: rgb(235, 235, 235);
+    color: white;
+    border-style: solid;
+    border-color: gray;
+    height: 30px;
+    width: 250px;
+}
