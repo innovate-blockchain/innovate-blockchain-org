@@ -8,6 +8,7 @@
   mongoose.connect(config.database);
   var indexRouter = require('./routes/index');
   var leadersRouter = require('./routes/leaders');
+  var contactUsRouter = require('./routes/contactus');
   var app = express();
   var apiRoutes = express.Router();
   // view engine setup
@@ -34,6 +35,7 @@
 
   apiRoutes.use('/', indexRouter);
   apiRoutes.use('/leaders', leadersRouter);
+  apiRoutes.use('/contactus', contactUsRouter);
   apiRoutes.use('/profile_pictures',
       express.static(path.join(__dirname, 'profile_pictures/')));
   app.use('/api',apiRoutes);
