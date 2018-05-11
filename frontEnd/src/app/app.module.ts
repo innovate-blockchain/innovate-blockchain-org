@@ -11,12 +11,15 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { HeaderComponent } from './components/header/header.component';
 
 import { LandingPageService } from './services/landing-page.service';
+import { ContactusComponent } from './components/contactus/contactus.component';
+import { ContactusService } from './services/contactus.service';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    HeaderComponent
+    HeaderComponent,
+    ContactusComponent
   ],
   imports: [
     BrowserModule,
@@ -25,7 +28,7 @@ import { LandingPageService } from './services/landing-page.service';
     BrowserAnimationsModule,
     MaterialModule
   ],
-  providers: [LandingPageService],
+  providers: [LandingPageService, ContactusService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
