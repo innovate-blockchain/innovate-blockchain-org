@@ -8,3 +8,4 @@
 .c9/
 *.launch
 .settings/
+frontEnd/package-lock.json
