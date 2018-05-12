@@ -11,12 +11,14 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { HeaderComponent } from './components/header/header.component';
 
 import { LandingPageService } from './services/landing-page.service';
+import {LandingPageAboutComponent} from "./components/landing-page/landing-page-about/landing-page.about.component";
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
-    HeaderComponent
+    HeaderComponent,
+    LandingPageAboutComponent
   ],
   imports: [
     BrowserModule,
