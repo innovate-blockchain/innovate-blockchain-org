@@ -19,11 +19,12 @@ form {
 #email {
     padding-top: 25px;
     padding-left: 50px;
+  padding-bottom: 200px;
 }
 
 #statement {
     padding-left: 50px;
-    font-size: 0.6em;  
+    font-size: 0.6em;
 }
 
 #submitButton {
@@ -38,3 +39,33 @@ form {
     height: 30px;
     width: 250px;
 }
+p#statement {
+  margin-bottom: 8%;
+}
+#blockchainVideoHeader[_ngcontent-c1] {
+  background-color: #cccccc;
+  text-align: left;
+  vertical-align: middle;
+  padding: 2%;
+  font-size: 1.2em;
+  margin: 0;
+  padding-left: 50px;
+}
+h4#blockchainVideoHeader {
+  color: grey;
+}
+#blockchainVideo {
+  height: 350px;
+  width: 650px;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 5%;
+
+}
+
+#blockchainVideoDiv {
+  height: 550px;
+  margin-bottom: 3%;
+
+}
+

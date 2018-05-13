@@ -1,0 +1,3 @@
+<input type="file" id="fileInput" (change)=selectFile($event) />
+<img id="dp" src={{currentPic}} (click)=openFileDialog() alt="profile picture" width="60%" height="50%" />
+<button mat-button id="save" (click)=uploadFile()>Save</button>

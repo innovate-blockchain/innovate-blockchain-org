@@ -1,0 +1,21 @@
+#aboutHeader {
+  text-align: center;
+  color : grey;
+}
+.aboutSubHeader {
+  text-align: right;
+  color: grey;
+  padding: 2%;
+}
+.aboutIcon {
+  float: left;
+}
+
+.aboutSubHeaderLabel {
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+.aboutDiv {
+  padding-left: 10%;
+  padding-right: 10%;
+}

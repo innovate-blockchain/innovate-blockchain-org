@@ -11,10 +11,10 @@ export class LandingPageService {
 
   constructor(public http: Http) { }
 
-  getLeaders(): Observable<Leader[]> {
+  getLeaders(): Observable<Array<Leader>> {
     return this.http.get('http://localhost:3000/api/leaders').
       map(res => {
-        let results = <Leader[]>res.json();
+        let results = <Array<Leader>>res.json();
         return results;
       });
   }
@@ -46,3 +46,4 @@ export class LandingPageService {
     }).map(res => <Response>res.json());
   }
 }
+
