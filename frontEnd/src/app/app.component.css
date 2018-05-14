@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Regular'; /*a name to be used later*/
+  src: url('../assets/fonts/SourceSansPro-Regular.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Bold'; /*a name to be used later*/
+  src: url('../assets/fonts/SourceSansPro-Bold.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Black'; /*a name to be used later*/
+  src: url('../assets/fonts/SourceSansPro-Black.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'BlackItalic'; /*a name to be used later*/
+  src: url('../assets/fonts/SourceSansPro-BlackItalic.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'BoldItalic'; /*a name to be used later*/
+  src: url('../assets/fonts/SourceSansPro-BoldItalic.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'ExtraLight'; /*a name to be used later*/
+  src: url('../assets/fonts/SourceSansPro-ExtraLight.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'ExtraLightItalic'; /*a name to be used later*/
+  src: url('../assets/fonts/SourceSansPro-ExtraLightItalic.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Italic'; /*a name to be used later*/
+  src: url('../assets/fonts/SourceSansPro-Italic.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Light'; /*a name to be used later*/
+  src: url('../assets/fonts/SourceSansPro-Light.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'LightItalic'; /*a name to be used later*/
+  src: url('../assets/fonts/SourceSansPro-LightItalic.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'Semibold'; /*a name to be used later*/
+  src: url('../assets/fonts/SourceSansPro-Semibold.ttf'); /*URL to font*/
+}
+@font-face {
+  font-family: 'SemiboldItalic'; /*a name to be used later*/
+  src: url('../assets/fonts/SourceSansPro-SemiboldItalic.ttf'); /*URL to font*/
+}
