@@ -11,8 +11,8 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { HeaderComponent } from './components/header/header.component';
 import { ProfilePictureComponent } from './components/profile-picture/profile-picture.component';
 import { LandingPageAboutComponent } from "./components/landing-page/landing-page-about/landing-page.about.component";
-import { LeadershipComponent } from './components/leadership/leadership.component'
-
+import { LeadershipComponent } from './components/leadership/leadership.component';
+import { PlaceholderComponent } from './components/placeholder/placeholder.component';
 import { LandingPageService } from './services/landing-page.service';
 import { ContactusService } from './services/contactus.service';
 import { ProfilePictureService } from './components/profile-picture/profile-picture.service';
@@ -24,7 +24,8 @@ import { ProfilePictureService } from './components/profile-picture/profile-pict
     HeaderComponent,
     LandingPageAboutComponent,
     ProfilePictureComponent,
-    LeadershipComponent
+    LeadershipComponent,
+    PlaceholderComponent
   ],
   imports: [
     BrowserModule,

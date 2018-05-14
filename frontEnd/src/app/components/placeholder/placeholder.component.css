@@ -1,0 +1,19 @@
+#ph{
+    display: block;
+    height: 25%;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cs {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 400%;
+    text-align: center;
+}
+
+#outerDiv {
+    padding-top: 5%;    
+    padding-bottom: 10%;
+}
