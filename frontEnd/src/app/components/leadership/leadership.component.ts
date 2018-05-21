@@ -11,11 +11,11 @@ import { LandingPageService } from '../../services/landing-page.service';
 })
 export class LeadershipComponent implements OnInit {
 
-  leaders: Array<Leader>;
+  leaders: Leader[];
 
   constructor(private landingPageService: LandingPageService) {
-    this.landingPageService.getLeaders().subscribe(l => {
-      this.leaders = l;
+    this.landingPageService.getLeaders().subscribe((leaders) => {
+      this.leaders = leaders;
     });
   }
 

@@ -1,3 +1,10 @@
 #leaders {
-    align-content: center
+    text-align: center;
+}
+#card-container {
+    display: inline-grid;
+    padding: 2%;
+    }
+
+#leaderName {
 }

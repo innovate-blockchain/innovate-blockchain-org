@@ -14,11 +14,6 @@ export class LandingPageComponent implements OnInit {
   leaders: Leader[];
 
   ngOnInit() {
-    //this.landingPageService.postLeaders().subscribe();
-    this.landingPageService.getLeaders().subscribe((leaders) => {
-      this.leaders = leaders;
-      console.log("Name " + this.leaders[0].name);
-    });
   }
 
 }

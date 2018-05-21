@@ -1,12 +1,15 @@
 <h5 id="leaders">Leadership</h5>
-<h6>Meet the name</h6>
-<div ngFor="let leader of leaders">
+<h6>
+  <strong>Meet the team</strong>
+</h6>
+<span *ngFor="let leader of leaders" id="card-container">
   <mat-card>
-    <img src="../../../assets/dp.png">
+    <img width=130 height=180 src="../../../assets/dp.png">
     <mat-card-content>
-      <p>
-        {{leader.name}}
+      <p id="leaderName">
+        <strong>{{leader.name}}</strong>
+        <br> {{leader.roles[0]}}
       </p>
     </mat-card-content>
   </mat-card>
-</div>
+</span>
