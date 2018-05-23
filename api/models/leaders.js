@@ -6,7 +6,8 @@ const LeaderSchema = new Schema({
             type: String
         },
         roles:[{type:String}],
-        profile_picture: {type:String}
+        profile_picture: {type:String},
+        type:{type:String, enum:['team','advisor']}
     },
     {
         timestamps:true

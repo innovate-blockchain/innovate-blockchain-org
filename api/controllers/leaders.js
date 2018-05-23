@@ -20,7 +20,8 @@ exports.getSpecificLeader = function (req,res,next) {
 exports.addLeader = function (req,res,next) {
   var leader = new Leader({
       name:req.body.name,
-      roles: req.body.roles
+      roles: req.body.roles,
+      type: req.body.type
   });
   leader.save(function (err,leader) {
       if(err){
@@ -36,6 +37,7 @@ exports.editLeader = function (req,res,next) {
         if(err) return res.status(401).send({'success':false});
         leader.name = req.body.name;
         leader.roles = req.body.roles;
+        leader.type = req.body.type;
         leader.save(function (err) {
            if(err) return res.status(401).send(err);
            return res.status(200).send({'sucess':true,'updated':leader});
