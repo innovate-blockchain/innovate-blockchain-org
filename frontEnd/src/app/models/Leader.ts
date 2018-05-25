@@ -1,6 +1,11 @@
 
 export class Leader {
-    name: string;
     roles: Array<string>;
+    name: string;
+    type: string;
     _id: string;
+    //createdAt: string;
+    //updatedAt: string;
+    //__v:number;
+
 }

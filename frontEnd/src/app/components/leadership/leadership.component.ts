@@ -20,6 +20,6 @@ export class LeadershipComponent implements OnInit {
   }
 
   ngOnInit() {
-
+    //this.landingPageService.postLeaders().subscribe();
   }
 }

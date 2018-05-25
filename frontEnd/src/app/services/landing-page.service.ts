@@ -21,8 +21,9 @@ export class LandingPageService {
 
   postLeaders(): Observable<any> {
     return this.http.post('http://localhost:3000/api/leaders', {
-      "name": "Shilpa",
-      "roles": ["Developer", "Designer"]
+      "name": "Mark Naufel",
+      "roles": ["ASU"],
+      "type": "advisor"
     }).map(response => response.json);
   }
 
