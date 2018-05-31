@@ -1,16 +1,19 @@
 #aboutHeader {
   text-align: center;
-  color : grey;
+  color : #2E313A;
   font-family: 'Bold';
+  font-size: 40px;
 }
 .aboutSubHeader {
-  text-align: right;
-  color: grey;
+  text-align: center;
+  color: #2E313A;
   padding: 2%;
-  font-family: 'Italic';
+  font-size: 12px;
+  font-family: 'Regular';
 }
 .aboutIcon {
-  float: left;
+  padding-left: 40%;
+  margin: 0 0 30px 0;
 }
 
 .aboutSubHeaderLabel {
@@ -20,4 +23,16 @@
 .aboutDiv {
   padding-left: 10%;
   padding-right: 10%;
+}
+#educate{
+  color:#2F0D9D;
+  font-family:'Bold'
+}
+#create{
+  color:#4CBD5E;
+  font-family:'Bold'
+}
+#innovate{
+  color:#EA2A40;
+  font-family:'Bold'
 }
