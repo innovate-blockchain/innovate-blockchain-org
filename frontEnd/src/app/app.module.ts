@@ -16,6 +16,7 @@ import { PlaceholderComponent } from './components/placeholder/placeholder.compo
 import { LandingPageService } from './services/landing-page.service';
 import { ContactusService } from './services/contactus.service';
 import { ProfilePictureService } from './components/profile-picture/profile-picture.service';
+import { LandingPageGroupsComponent } from './components/landing-page/landing-page-groups/landing-page-groups.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { ProfilePictureService } from './components/profile-picture/profile-pict
     LandingPageAboutComponent,
     ProfilePictureComponent,
     LeadershipComponent,
-    PlaceholderComponent
+    PlaceholderComponent,
+    LandingPageGroupsComponent
   ],
   imports: [
     BrowserModule,

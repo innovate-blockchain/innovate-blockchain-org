@@ -7,6 +7,7 @@ form {
     padding-top: 150px;
     margin: 0;
     font-size: 2.7em;
+    font-family: 'Black';
 }
 
 #subtitle {
@@ -15,6 +16,7 @@ form {
     padding-top: 0px;
     margin: 0;
     padding-left: 50px;
+    font-family: 'Bold';
 }
 #email {
     padding-top: 25px;
