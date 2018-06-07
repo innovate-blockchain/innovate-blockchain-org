@@ -21,3 +21,30 @@
 .title_row_col{
   margin: 70px 0 0 0;
 }
+.four_pillars{
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+.icon_row{
+  padding-top: 8%;
+}
+.pillar_content{
+
+  padding-top: 5%;
+}
+#pillars_text{
+  color:#2E313A;
+  font-family: 'Regular';
+  font-size: 12px;
+  text-align: right;
+  padding-left: 20%;
+  padding-bottom: 20%;
+}
+#tm_img{
+  width:66px;
+  height:18px;
+  margin-top: 6%;
+}
+.pillar_title_img{
+  padding-left: 44%;
+}
