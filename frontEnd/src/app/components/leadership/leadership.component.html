@@ -1,33 +1,37 @@
 <h5 id="leaders">Leadership</h5>
-<h6 class="padding">
+<p class="padding">
   <strong>Meet the team</strong>
-</h6>
-<span *ngFor="let leader of leaders let j=index" id="card-container">
-  <mat-card *ngIf="leader.type=='team'">
-    <img width=130 height=180 src="../../../assets/dp.png">
-    <mat-card-content>
-      <p id="leaderName">
-        <strong>{{leader.name}}</strong>
-        <br>
-        <span id="roles" *ngFor="let role of leader.roles let i=index"> {{role}}
-          <span *ngIf="i < leader.roles.length-1">,</span>
-        </span>
-    </mat-card-content>
-  </mat-card>
-</span>
-<p>
-  <strong>Advisors</strong>
 </p>
-<span *ngFor="let leader of leaders let j=index" id="card-container">
-  <mat-card *ngIf="leader.type=='advisor'">
-    <img width=130 height=180 src="../../../assets/dp.png">
-    <mat-card-content>
-      <p id="leaderName">
-        <strong>{{leader.name}}</strong>
-        <br>
-        <span id="roles" *ngFor="let role of leader.roles let i=index"> {{role}}
-          <span *ngIf="i < leader.roles.length-1">,</span>
-        </span>
-    </mat-card-content>
-  </mat-card>
-</span>
+<div id="leadersiv">
+  <span id="card-container" *ngFor="let leader of leaders let j=index">
+    <mat-card class="matCard mat-elevation-z0" *ngIf="leader.type=='team'">
+      <img width=130 height=180 src="../../../assets/dp.png">
+      <mat-card-content>
+        <p id="leaderName">
+          <strong>{{leader.name}}</strong>
+          <br>
+          <span id="roles" *ngFor="let role of leader.roles let i=index"> {{role}}
+            <span *ngIf="i < leader.roles.length-1">,</span>
+          </span>
+      </mat-card-content>
+    </mat-card>
+  </span>
+
+  <br>
+  <p>
+    <strong>Advisors</strong>
+  </p>
+  <span *ngFor="let leader of leaders let j=index" id="card-container">
+    <mat-card class="matCard mat-elevation-z0" *ngIf="leader.type=='advisor'">
+      <img width=130 height=180 src="../../../assets/dp.png">
+      <mat-card-content>
+        <p id="leaderName">
+          <strong>{{leader.name}}</strong>
+          <br>
+          <span id="roles" *ngFor="let role of leader.roles let i=index"> {{role}}
+            <span *ngIf="i < leader.roles.length-1">,</span>
+          </span>
+      </mat-card-content>
+    </mat-card>
+  </span>
+</div>

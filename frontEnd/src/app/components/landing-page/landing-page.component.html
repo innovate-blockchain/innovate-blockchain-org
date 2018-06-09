@@ -1,24 +1,54 @@
 <app-header></app-header>
-<div>
-    <h2 id="blockchainHeader">Blockchain Innovation Society</h2>
-    <p id="subtitle">Leaders in Blockchain Innovation</p>
+<div id="flexDiv">
+    <div class="flexGrow">
+        <div class="flexColumn">
+            <div id="blockchainDiv">
+                <div>
+                    <img src="../../../assets/images/BIS Color Header.png" width="100" height="120" alt="blockchain innovation society" />
+                </div>
+                <div class="BlockchainText">
+                    <div>Blockchain</div>
+                    <div>Innovation</div>
+                    <div>Society</div>
+                </div>
+            </div>
+            <div>
+                <hr id="horizontalLine">
+            </div>
+            <div class="leadersinBloackChain">
+                Leaders in Blockchain Innovation.
+            </div>
+        </div>
+    </div>
+    <div id="formDiv">
+        <div id="textDiv">
+            <div>Join our email list for</div>
+            <div>organizational updates and early</div>
+            <div>access to our educational content</div>
+        </div>
+        <div>
+            <form matFormField>
+
+                <ul class="SubmitEmail">
+                    <li class="inline">
+                        <input id="emailInput" matInput placeholder="EMAIL" />
+                    </li>
+                    <li class="inline">
+                        <button id="submitButton">Submit</button>
+                    </li>
+
+                </ul>
+                <div class="termsOfService">
+                    By clicking submit, you are agreeing to our
+                    <a href="">Terms of Service.</a>
+                </div>
+            </form>
+        </div>
+    </div>
 </div>
-
-<form matFormField>
-    <span id="email">
-        <input id="emailInput" matInput placeholder="Email" />
-        <button id="submitButton" mat-button>Submit</button>
-        <br>
-        <p id="statement">Join our newsletter for updates. We will not use your personal information for anything else.
-        </p>
-    </span>
-
-</form>
-
 <div id="blockchainVideoDiv">
     <h4 id="blockchainVideoHeader">What is Blockchain...</h4>
     <iframe id="blockchainVideo" src="https://www.youtube.com/embed/A6XUVjK9W4o" frameborder="0" allowfullscreen></iframe>
 </div>
 <app-landing-page-about></app-landing-page-about>
 <app-landing-page-groups></app-landing-page-groups>
-<app-leadership></app-leadership>

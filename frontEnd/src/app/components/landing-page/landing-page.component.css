@@ -1,6 +1,4 @@
-form {
-    padding-top: 100px;
-}
+
 #blockchainHeader {
     color : grey;
     padding-left: 50px;
@@ -18,11 +16,6 @@ form {
     padding-left: 50px;
     font-family: 'Bold';
 }
-#email {
-    padding-top: 25px;
-    padding-left: 50px;
-  padding-bottom: 200px;
-}
 
 #statement {
     padding-left: 50px;
@@ -30,14 +23,16 @@ form {
 }
 
 #submitButton {
-    background-color: gray;
+    background-color:#2E313A;;
     color: white;
+    height: 30px;
+    width:100px;
+    border: 0;
+    margin-left: -10px;
 }
 #emailInput {
-    background-color: rgb(235, 235, 235);
     color: white;
-    border-style: solid;
-    border-color: gray;
+    border-color: black;
     height: 30px;
     width: 250px;
 }
@@ -68,6 +63,66 @@ h4#blockchainVideoHeader {
 #blockchainVideoDiv {
   height: 550px;
   margin-bottom: 3%;
-
 }
 
+#flexDiv {
+    display: flex;
+    padding-top: 10%;
+    padding-left: 5%;
+   padding-bottom: 15%;
+}
+
+#blockchainDiv {
+    display: flex;
+    
+}
+
+#textDiv{
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 35px;
+    line-height: 20px;
+
+}
+#formDiv{
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    padding-right: 8%;
+}
+.termsOfService {
+    font-size: 7px;
+}
+.BlockchainText {
+    font-size: 50px;
+    font-family: "Bold";
+    color: #2E313A;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.flexColumn {
+    display:flex;
+    flex-direction: column;
+}
+#horizontalLine {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+    margin-bottom: 0%;
+    font-weight: bold;
+    font-size: 10px;
+}
+.SubmitEmail {
+    font-size: 10px;
+    margin-bottom: 1%;
+}
+.inline {
+    display: inline-block;
+}
+.leadersinBloackChain {
+    font-size: 14px;
+    font-family: bold;
+}

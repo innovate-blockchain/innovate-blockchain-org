@@ -1,3 +1,33 @@
-#dp {
-    cursor: pointer;
+.mainDiv {
+    display: flex;
+    background-color: #2E313A;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.donateButton {
+    color: white;
+    border-color: white;
+    font-size: 10px;
+    margin-top: 7px;
+    height: 30px;
+    background-color: #2E313A;
+    width: 80px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+
+.tabGroup {
+    background-color: #2E313A;
+    flex-grow: 2;
+}
+.bisIcon { 
+    background-color: #2E313A;
+    padding-left: 3%;
+    flex-grow: 1;
+}
+.menuTab{
+    display: flex;
+    padding-right: 4%;    
 }

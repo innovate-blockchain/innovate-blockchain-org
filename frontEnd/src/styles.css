@@ -3,3 +3,22 @@
 body {
     background-color: rgb(235, 235, 235);
 }
+.mat-tab-label {
+    min-width: auto !important;
+    font-size: 10px;
+    color: white !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;    
+    height: 35px !important;
+    padding-top: 10px !important;
+    font-weight: 900;
+  }
+
+  .mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar {
+    background-color:white;
+    width: auto;
+  }
+  
+  .mat-tab-header {
+    border-bottom: 0px;
+  }

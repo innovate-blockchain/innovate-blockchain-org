@@ -3,12 +3,21 @@
 }
 #card-container {
     display: inline-grid;
-    padding: 2%;
     }
 
 #roles {
     margin-bottom: 0%;
 }
-#padding {
-    padding-left: 5%;
+
+#matCard {
+    margin: 0%;
+    padding:4%;
+}
+.padding {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#leadersiv {
+    margin-left: 10%;
 }
