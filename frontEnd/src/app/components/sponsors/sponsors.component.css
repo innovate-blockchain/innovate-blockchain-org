@@ -1,0 +1,69 @@
+.branding {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 80px; 
+    justify-content: center;
+    align-items: center;
+}
+.peoplePraises {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title {
+    font-family: bold;
+    font-size:20px;
+    display: flex;
+    padding-top: 100px;
+}
+.icon {
+    padding: 10px;
+}
+.sponsor {
+    background-color: #2E313A;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top:50px;
+    padding-bottom: 30px;
+}
+#corporateSponsorship {
+    color: green;
+    font-size: 15px;
+    font-weight: bold;
+    font-size: 20px;    
+}
+#emailInput {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: #2E313A;
+    border-color: white;
+    text-align: right;
+    width:250px;
+}
+.textSponsor {
+    color: white;
+    background-color: #2E313A;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+.text {
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow:2;
+}
+#submitButton {
+    background-color: green;
+    width: 80px;
+    float: right;
+    margin-top: 20px;
+    border: 0;
+}

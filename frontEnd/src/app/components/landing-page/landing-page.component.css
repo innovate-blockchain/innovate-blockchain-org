@@ -40,13 +40,15 @@ p#statement {
   margin-bottom: 8%;
 }
 #blockchainVideoHeader[_ngcontent-c1] {
-  background-color: #cccccc;
+  background-color: rgb(1, 1, 112);
   text-align: left;
   vertical-align: middle;
   padding: 2%;
   font-size: 1.2em;
   margin: 0;
   padding-left: 50px;
+  color: white;
+  font-weight: bold;
 }
 h4#blockchainVideoHeader {
   color: grey;
@@ -63,6 +65,7 @@ h4#blockchainVideoHeader {
 #blockchainVideoDiv {
   height: 550px;
   margin-bottom: 3%;
+  background-color: #2E313A;
 }
 
 #flexDiv {
