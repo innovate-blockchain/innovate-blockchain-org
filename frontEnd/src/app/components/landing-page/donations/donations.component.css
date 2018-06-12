@@ -1,0 +1,42 @@
+.title{
+font-family:"Bold";
+  font-size: 25px;
+  color : #2E313A;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+img{
+  height: auto;
+  width: auto;
+  max-width: 500px;
+  max-height: 500px;
+  padding-left: 20%;
+}
+.canvas{
+  background-color: #2E313A;
+  color: white;
+  font-family:"Bold";
+  font-size: 25px;
+}
+.canvas_highlight{
+  color:#FFAC40;
+}
+.text_canvas{
+  padding-top: 20%;
+  padding-left: 20%;
+}
+button{
+  background-color:#FFAC40 ;
+  color: white;
+  font-size: 15px;
+  font-family: "Bold";
+  border-radius: 7px;
+  border: none;
+  height: 2em;
+
+}
+.button_div{
+  padding-left: 60%;
+  padding-top: 5%;
+
+}

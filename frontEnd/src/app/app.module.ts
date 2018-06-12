@@ -18,6 +18,7 @@ import { ContactusService } from './services/contactus.service';
 import { ProfilePictureService } from './components/profile-picture/profile-picture.service';
 import { LandingPageGroupsComponent } from './components/landing-page/landing-page-groups/landing-page-groups.component';
 import { SponsorsComponent } from './components/sponsors/sponsors.component';
+import { DonationsComponent } from './components/landing-page/donations/donations.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SponsorsComponent } from './components/sponsors/sponsors.component';
     LeadershipComponent,
     PlaceholderComponent,
     LandingPageGroupsComponent,
-    SponsorsComponent
+    SponsorsComponent,
+    DonationsComponent
   ],
   imports: [
     BrowserModule,
