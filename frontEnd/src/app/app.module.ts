@@ -20,6 +20,7 @@ import { LandingPageGroupsComponent } from './components/landing-page/landing-pa
 import { SponsorsComponent } from './components/sponsors/sponsors.component';
 import { DonationsComponent } from './components/landing-page/donations/donations.component';
 import { ConactUsComponent } from './components/landing-page/conact-us/conact-us.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { ConactUsComponent } from './components/landing-page/conact-us/conact-us
     LandingPageGroupsComponent,
     SponsorsComponent,
     DonationsComponent,
-    ConactUsComponent
+    ConactUsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,50 @@
+.mainDiv {
+    display: flex;
+    font-size: 10px;
+    background-color: #2E313A;
+    color: white;
+    padding: 50px;
+}
+.bis {
+    font-size: 7px;
+    padding-right: 120px;
+}
+.aboutUs {
+    padding-right: 100px;
+    font-size:12px;
+}
+.flexDisplay {
+    display: flex;
+}
+
+.paddingText {
+    padding-left: 20px;
+    font-size: 12px;
+    margin-top: -2px;
+}
+.socialMedia {
+    padding-right: 100px;    
+}
+#okButton {
+    background-color: white;
+    border: 0px;
+    width: 40px;
+    height: 30px;
+    margin-left: -3px;    
+}
+.subscription {
+    padding-right: 120px;
+    font-size:12px;
+}
+#emailAddress {
+    background-color: #2E313A;
+    width: 170px;
+    height: 30px;
+    padding-left: 30px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: white;
+}
+.address {
+    font-size: 12px;
+}
