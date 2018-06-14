@@ -28,15 +28,21 @@ img{
 button{
   background-color:#FFAC40 ;
   color: white;
-  font-size: 15px;
-  font-family: "Bold";
-  border-radius: 7px;
+  font-size: 12px;
+  font-family: "Regular";
+  border-radius: 3px;
   border: none;
-  height: 2em;
-
+  height: 2.7em;
+  width: 60%;
 }
 .button_div{
   padding-left: 60%;
   padding-top: 5%;
 
+}
+i{
+  font-size: 12px;
+}
+#button_text{
+  padding-right: 1em;
 }
