@@ -1,46 +1,57 @@
+form {
 
+}
 #blockchainHeader {
-    color : grey;
-    padding-left: 50px;
-    padding-top: 150px;
-    margin: 0;
-    font-size: 2.7em;
-    font-family: 'Black';
+  color : black;
+  padding-left: 5%;
+  padding-top: 2%;
+  margin: 0;
+  font-size: 4em;
+  font-family: 'Bold';
+  line-height: 80%;
 }
 
 #subtitle {
-    color : gray;
-    font-size: 1.2em;
-    padding-top: 0px;
-    margin: 0;
-    padding-left: 50px;
-    font-family: 'Bold';
+  color : black;
+  font-size: 15px;
+  padding-top: 0px;
+  margin: 0;
+  font-family: 'Regular';
+}
+#email {
+  padding: 5%;
+  float: right;
 }
 
+#email p {
+  font-size: 8px;
+}
 #statement {
-    padding-left: 50px;
-    font-size: 0.6em;
+  font-size: 1.2em;
+  text-align: right;
+  padding: 5%;
+  color: black;
+  font-family: 'Regular';
 }
 
 #submitButton {
-    background-color:#2E313A;;
-    color: white;
-    height: 30px;
-    width:100px;
-    border: 0;
-    margin-left: -10px;
+  background-color: black;
+  color: white;
+  float: right;
 }
 #emailInput {
-    color: white;
-    border-color: black;
-    height: 30px;
-    width: 250px;
+  color: white;
+  border-style: solid;
+  border-color: gray;
+  height: 37px;
+  width: 250px;
+  float: right;
 }
 p#statement {
   margin-bottom: 8%;
 }
 #blockchainVideoHeader[_ngcontent-c1] {
-  background-color: rgb(1, 1, 112);
+  background-color: #2f3690;
   text-align: left;
   vertical-align: middle;
   padding: 2%;
@@ -48,7 +59,6 @@ p#statement {
   margin: 0;
   padding-left: 50px;
   color: white;
-  font-weight: bold;
 }
 h4#blockchainVideoHeader {
   color: grey;
@@ -65,67 +75,27 @@ h4#blockchainVideoHeader {
 #blockchainVideoDiv {
   height: 550px;
   margin-bottom: 3%;
-  background-color: #2E313A;
-}
-
-#flexDiv {
-    display: flex;
-    padding-top: 10%;
-    padding-left: 5%;
-   padding-bottom: 15%;
-}
-
-#blockchainDiv {
-    display: flex;
-    
-}
-
-#textDiv{
-    font-weight: 600;
-    font-size: 16px;
-    margin-bottom: 35px;
-    line-height: 20px;
+  background: #2E313A;
 
 }
-#formDiv{
-    flex-grow: 2;
-    display: flex;
-    flex-direction: column;
-    text-align: end;
-    padding-right: 8%;
+
+.blockChainImage {
+  width: 100%;
 }
-.termsOfService {
-    font-size: 7px;
+
+.blockChain {
+  padding: 5%;
+  padding-left: 8%;
+  margin-bottom: 5%;
 }
-.BlockchainText {
-    font-size: 50px;
-    font-family: "Bold";
-    color: #2E313A;
-    line-height: 40px;
-    padding-left: 10px;
+
+.rightBlockNewsletter {
+  padding-right: 8%;
+  padding-top: 5%;
 }
-.flexColumn {
-    display:flex;
-    flex-direction: column;
+.termsText {
+  float: right;
 }
-#horizontalLine {
-    border: none;
-    height: 1px;
-    /* Set the hr color */
-    color: #333; /* old IE */
-    background-color: #333; /* Modern Browsers */
-    margin-bottom: 0%;
-    font-weight: bold;
-    font-size: 10px;
-}
-.SubmitEmail {
-    font-size: 10px;
-    margin-bottom: 1%;
-}
-.inline {
-    display: inline-block;
-}
-.leadersinBloackChain {
-    font-size: 14px;
-    font-family: bold;
+hr {
+  margin-bottom: 0px !important;
 }

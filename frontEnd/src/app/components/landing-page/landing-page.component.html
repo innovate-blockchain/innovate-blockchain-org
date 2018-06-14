@@ -1,58 +1,44 @@
 <app-header></app-header>
-<div id="flexDiv">
-    <div class="flexGrow">
-        <div class="flexColumn">
-            <div id="blockchainDiv">
-                <div>
-                    <img src="../../../assets/images/BIS Color Header.png" width="100" height="120" alt="blockchain innovation society" />
-                </div>
-                <div class="BlockchainText">
-                    <div>Blockchain</div>
-                    <div>Innovation</div>
-                    <div>Society</div>
-                </div>
-            </div>
-            <div>
-                <hr id="horizontalLine">
-            </div>
-            <div class="leadersinBloackChain">
-                Leaders in Blockchain Innovation.
-            </div>
-        </div>
+<div class="row">
+  <div class="blockChain col-md-7 col-sm-12 col-xs-7 ">
+    <div class="row">
+      <div class="col-md-3 col-sm-3 col-xs-3 ">
+        <img class="blockChainImage" src="assets/images/bis_bis-mark-20.png">
+      </div>
+      <div class="col-md-8 col-sm-8 col-xs-8 ">
+        <h2 id="blockchainHeader">Blockchain Innovation Society</h2>
+
+      </div>
     </div>
-    <div id="formDiv">
+    <hr>
+    <p id="subtitle">Leaders in blockchain education.</p>
+  </div>
+
+  <div class="rightBlockNewsletter col-md-5 col-sm-12 col-xs-5 ">
+
+    <form matFormField>
+      <div id="statement">
         <div id="textDiv">
-            <div>Join our email list for</div>
-            <div>organizational updates and early</div>
-            <div>access to our educational content</div>
+          <div>Join our email list for</div>
+          <div>organizational updates and early</div>
+          <div>access to our educational content</div>
         </div>
-        <div>
-            <form matFormField>
+      </div>
+      <div id="email">
+        <button id="submitButton" mat-button>Submit</button>
+        <input id="emailInput" matInput placeholder="Email"/>
+        <p class="termsText">By clicking submit, you are agreeing to our <u>Terms of Service</u>.</p>
+        <br>
+      </div>
 
-                <ul class="SubmitEmail">
-                    <li class="inline">
-                        <input id="emailInput" matInput placeholder="EMAIL" />
-                    </li>
-                    <li class="inline">
-                        <button id="submitButton">Submit</button>
-                    </li>
-
-                </ul>
-                <div class="termsOfService">
-                    By clicking submit, you are agreeing to our
-                    <a href="">Terms of Service.</a>
-                </div>
-            </form>
-        </div>
-    </div>
+    </form>
+  </div>
 </div>
+
 <div id="blockchainVideoDiv">
-    <h4 id="blockchainVideoHeader">What is Blockchain Technology...</h4>
-    <iframe id="blockchainVideo" src="https://www.youtube.com/embed/A6XUVjK9W4o" frameborder="0" allowfullscreen></iframe>
+  <h4 id="blockchainVideoHeader">What is Blockchain Technology...</h4>
+  <iframe id="blockchainVideo" src="https://www.youtube.com/embed/A6XUVjK9W4o" frameborder="0" allowfullscreen></iframe>
 </div>
 <app-landing-page-about></app-landing-page-about>
 <app-landing-page-groups></app-landing-page-groups>
-<app-sponsors></app-sponsors>
-<app-donations></app-donations>
-<app-conact-us></app-conact-us>
-<app-footer></app-footer>
+<app-leadership></app-leadership>
