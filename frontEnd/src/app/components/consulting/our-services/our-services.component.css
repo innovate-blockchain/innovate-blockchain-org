@@ -1,0 +1,48 @@
+.heading {
+    text-align: center;
+    margin:40px;
+    margin-bottom: 100px;
+}
+.mainDiv {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.feasiblityHeading {
+    color: rgb(20, 182, 20);
+    font-weight: 600;
+    font-size:22px;
+    padding-top: 30px;
+}
+.feasiblityBody {
+    font-size: 10px;
+    display: flex;
+    flex-grow: 2;
+}
+.contactUsButton {
+    background-color: rgb(20, 182, 20);;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    font-size: 10px;
+    height: 30px;
+    font-weight: 400;
+    border: 0px;
+    margin-bottom: 20px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.feasibility {
+    display: flex;
+}
+.blockchainStrategy {
+    display: flex;
+}
+.blockchainText {
+    width: 50%;
+}
+.image {
+    widows: 50%;
+}

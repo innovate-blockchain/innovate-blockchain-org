@@ -1,17 +1,25 @@
 <div class="mainDiv">
   <div class="bisIcon">
-    <img src="../../../assets/images/BIS White header.png" alt="blockchain innovation society" width="40" height="45" />
+    <img src="../../../assets/images/BIS White header.png" alt="blockchain innovation society" width="45" height="50" />
   </div>
   <div class="menuTab">
     <div class="tabGroup">
-      <mat-tab-group>
+      <nav mat-tab-nav-bar>
+        <a class="menuOptions" [routerLink]="['home']">HOME</a>
+        <a class="menuOptions" [routerLink]="['']">EDUCATION</a>
+        <a class="menuOptions" [routerLink]="['']">RESEARCH</a>
+        <a class="menuOptions" [routerLink]="['consulting']">CONSULTING</a>
+        <a class="menuOptions" [routerLink]="['']">INVESTMENTS</a>
+        <a class="menuOptions" [routerLink]="['consulting']">CONTACTS</a>
+      </nav>
+      <!-- <mat-tab-group>
         <mat-tab label="HOME"></mat-tab>
         <mat-tab label="EDUCATION"></mat-tab>
         <mat-tab label="RESEARCH"></mat-tab>
         <mat-tab label="CONSULTING"></mat-tab>
         <mat-tab label="INVESTMENTS"></mat-tab>
         <mat-tab label="CONTACTS"></mat-tab>
-      </mat-tab-group>
+      </mat-tab-group> -->
     </div>
     <div>
       <button class="donateButton">DONATE</button>

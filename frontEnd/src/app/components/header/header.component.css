@@ -14,13 +14,22 @@
     background-color: #2E313A;
     width: 80px;
     border-radius: 4px;
-    margin-left: 10px;
 }
 
+.menuOptions {
+    font-size: 10px;
+    color: white;
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 35px;
+    font-weight: 500;
+}
 
 .tabGroup {
     background-color: #2E313A;
     flex-grow: 2;
+    margin-top: 8px;
+    margin-right: 10px;
 }
 .bisIcon { 
     background-color: #2E313A;
@@ -29,5 +38,9 @@
 }
 .menuTab{
     display: flex;
-    padding-right: 4%;    
+    padding-right: 4%;
+    margin-bottom: 15px; 
+}
+.test {
+    border-bottom: 4px;
 }

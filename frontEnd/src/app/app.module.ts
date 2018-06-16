@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { RouterModule, Route, Routes, Router } from '@angular/router';
 import { MaterialModule } from './material.module';
 
 import { AppComponent } from './app.component';
@@ -22,6 +22,9 @@ import { DonationsComponent } from './components/landing-page/donations/donation
 import { ConactUsComponent } from './components/landing-page/conact-us/conact-us.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+import { ConsultingPageComponent } from './components/consulting//consultingPage/consultingPage.component';
+import { OurServicesComponent } from './components/consulting/our-services/our-services.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,17 +38,26 @@ import { FooterComponent } from './components/footer/footer.component';
     SponsorsComponent,
     DonationsComponent,
     ConactUsComponent,
-    FooterComponent
+    FooterComponent,
+    ConsultingPageComponent,
+    OurServicesComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    RouterModule.forRoot([
+      { path: 'home', component: LandingPageComponent },
+      { path: '', redirectTo: '/home', pathMatch: 'full' },
+      { path: 'consulting', component: ConsultingPageComponent }
+    ])
   ],
   entryComponents: [ProfilePictureComponent],
   providers: [LandingPageService, ContactusService, ProfilePictureService],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+}
