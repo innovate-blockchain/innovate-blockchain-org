@@ -1,0 +1,35 @@
+<div class="heading row col-md-12 text-center">
+  <h2  class="heading_line">{{"Blockchain Consulting"| uppercase}}</h2>
+</div>
+<hr>
+<div class="sub_heading col-md-12 row">
+  <h6>Test, create and discover entirely new business models. See how blockchain can affect your business.
+  </h6>
+</div>
+<div class="body row col-md-12">
+  <div class="sub_title">DID YOU KNOW...</div>
+  <div class ="four_dyks row col-md-12" >
+    <div *ngFor="let text of first_four index as i" class="col-md-3">
+      <div class ="row">
+        <i class="icon material-icons">
+          {{first_four_icons[i]}}
+        </i>
+      </div>
+      <div class="icon_content row">
+        {{text}}
+      </div>
+    </div>
+  </div>
+  <div class ="four_dyks row col-md-12">
+    <div *ngFor="let text of second_four index as i" class="col-md-3">
+      <div class ="row">
+        <i class="icon material-icons">
+          {{second_four_icons[i]}}
+        </i>
+      </div>
+      <div class="icon_content row">
+        {{text}}
+      </div>
+    </div>
+  </div>
+</div>

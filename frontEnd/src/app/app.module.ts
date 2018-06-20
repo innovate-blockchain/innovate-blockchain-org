@@ -24,6 +24,7 @@ import { FooterComponent } from './components/footer/footer.component';
 
 import { ConsultingPageComponent } from './components/consulting//consultingPage/consultingPage.component';
 import { OurServicesComponent } from './components/consulting/our-services/our-services.component';
+import { ConsultingDykComponent } from './components/consulting/consulting-dyk/consulting-dyk.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { OurServicesComponent } from './components/consulting/our-services/our-s
     ConactUsComponent,
     FooterComponent,
     ConsultingPageComponent,
-    OurServicesComponent
+    OurServicesComponent,
+    ConsultingDykComponent
   ],
   imports: [
     BrowserModule,

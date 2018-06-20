@@ -1,0 +1,43 @@
+.heading{
+  padding-left: 38%;
+  padding-top: 5%;
+}
+.sub_heading{
+  padding-left: 27%;
+  font-family: 'Bold';
+}
+.heading_line{
+  font-size: 30px;
+  font-family:'Bold';
+}
+
+hr{
+  width:28%;
+  background: #4CBD5E;
+  height: 1px;
+  border:0;
+  margin-left:36.5%;
+}
+.sub_title{
+  padding-top: 5%;
+  padding-bottom: 2%;
+  padding-left: 47%;
+  font-family: 'Regular';
+  font-size:20px;
+}
+.four_dyks{
+  padding-left: 7%;
+  padding-bottom: 5%;
+}
+.icon_content{
+  text-align:center;
+  font-size:12px;
+  padding-left: 5%;
+  padding-right: 5%;
+
+}
+.icon{
+  font-size:40px;
+  padding-left:45%;
+  padding-bottom: 4%;
+}
