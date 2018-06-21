@@ -1,0 +1,12 @@
+.carousel slide {
+  background: black;
+}
+.carouselTest{
+  color: white;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.ngbText {
+  float: right;
+}

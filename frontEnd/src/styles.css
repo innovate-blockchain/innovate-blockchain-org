@@ -8,7 +8,7 @@ body {
     font-size: 10px;
     color: white !important;
     padding-left: 10px !important;
-    padding-right: 10px !important;    
+    padding-right: 10px !important;
     height: 35px !important;
     padding-top: 10px !important;
     font-weight: 900;
@@ -21,3 +21,11 @@ body {
     margin-top: 10px;
     width: auto;
   }
+.carousel {
+  background: #2E313A !important;
+  margin-top: 5% !important;
+}
+.carousel-inner{
+ height: 300px;
+}
+
