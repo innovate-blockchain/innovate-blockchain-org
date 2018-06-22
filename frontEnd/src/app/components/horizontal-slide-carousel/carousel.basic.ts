@@ -4,10 +4,6 @@ import {map} from 'rxjs/operators';
 
 @Component({selector: 'ngbd-carousel-basic', templateUrl: './carousel-basic.html', styleUrls: ['./carousel-basic.css']})
 export class NgbdCarouselBasic {
-  aaa="https://picsum.photos/900/500?image=1";
-  bbb="https://picsum.photos/900/500?image=2";
-  ccc="https://picsum.photos/900/500?image=3";
-
   /*images: Array<string>;
 
   constructor(private _http: HttpClient) {}
