@@ -1,15 +1,11 @@
 .mainDiv {
-    display: flex;
     background-color: #2E313A;
-    padding-top: 2%;
-    padding-bottom: 1%;
 }
 
-.donateButton {
+#donateButton {
     color: white;
     border-color: white;
     font-size: 10px;
-    margin-top: 7px;
     height: 30px;
     background-color: #2E313A;
     width: 80px;
@@ -25,22 +21,29 @@
     font-weight: 500;
 }
 
-.tabGroup {
-    background-color: #2E313A;
-    flex-grow: 2;
-    margin-top: 8px;
-    margin-right: 10px;
-}
 .bisIcon { 
     background-color: #2E313A;
-    padding-left: 3%;
-    flex-grow: 1;
 }
 .menuTab{
     display: flex;
-    padding-right: 4%;
-    margin-bottom: 15px; 
+    height: 30px;
 }
-.test {
-    border-bottom: 4px;
+
+.container-fluid {
+    margin:0px;
+}
+.padding-left-sm {
+    padding-left:3%;
+}
+.padding-right-sm {
+    padding-right:3%;
+}
+.padding-top-sm {
+    padding-top:2%;
+}
+.padding-bottom-sm {
+    padding-bottom:1%;
+}
+.donateButtonClass {
+    display: flex;
 }
