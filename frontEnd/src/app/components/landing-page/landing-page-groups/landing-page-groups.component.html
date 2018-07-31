@@ -1,31 +1,33 @@
 <div class="title_row row text-center">
-<div class="col-md-12 col-sm-12 col-xs-12 title_row_col">
-  <img class="images" src="assets/images/colored_lines_left.png">
-  <span id="title">We engage with the community through four primary pillars</span>
-  <img class="images" src="assets/images/colored_lines_right.png">
-</div>
+  <div class="col-md-12 col-sm-12 col-xs-12 title_row_col">
+    <img class="images" src="assets/images/colored_lines_left.png">
+    <span id="title">We engage with the community through four primary pillars</span>
+    <img class="images" src="assets/images/colored_lines_right.png">
+  </div>
 </div>
 <div class="icon_row row col-md-12 text-center">
   <div class="col-md-3 col-sm-3 col-xs-3">
-    <img (click)="iconClicked($event)" [id]="'education'" [ngStyle] = "style_obj" [src]="meta_data['education'].image_url">
+    <img (click)="iconClicked($event)" [id]="'education'" [ngStyle]="style_obj" [src]="meta_data['education'].image_url">
   </div>
   <div class="col-md-3 col-sm-3 col-xs-3">
-    <img (click)="iconClicked($event)" [id]="'consulting'" [ngStyle] = "style_obj" [src]="meta_data['consulting'].image_url">
+    <img (click)="iconClicked($event)" [id]="'consulting'" [ngStyle]="style_obj" [src]="meta_data['consulting'].image_url">
   </div>
   <div class="col-md-3 col-sm-3 col-xs-3">
-    <img (click)="iconClicked($event)" [id]="'investment'" [ngStyle] = "style_obj" [src]="meta_data['investment'].image_url">
+    <img (click)="iconClicked($event)" [id]="'investment'" [ngStyle]="style_obj" [src]="meta_data['investment'].image_url">
   </div>
   <div class="col-md-3 col-sm-3 col-xs-3">
-    <img (click)="iconClicked($event)" [id]="'research'" [ngStyle] = "style_obj" [src]="meta_data['research'].image_url">
+    <img (click)="iconClicked($event)" [id]="'research'" [ngStyle]="style_obj" [src]="meta_data['research'].image_url">
   </div>
 </div>
 <div class="pillar_content  row col-md-12 text-center">
-  <div [id]="'pillars_text'"class="col-md-6 col-sm-6 col-xs-6">
-    <div class="pillar_title_img row"> <img [id]="'tm_img'"[src]="tm_img">
-      <span [id]="'text_title'" [ngStyle]="title_style">{{selected_pillar | titlecase}}</span></div>
+  <div [id]="'pillars_text'" class="col-md-6 col-sm-6 col-xs-6">
+    <div class="pillar_title_img row">
+      <img [id]="'tm_img'" [src]="tm_img">
+      <span [id]="'text_title'" [ngStyle]="title_style">{{selected_pillar | titlecase}}</span>
+    </div>
     <div class="row">{{four_pillar_text }}</div>
   </div>
   <div class="col-md-6 col-sm-6 col-xs-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/s1LozefwTfo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/s1LozefwTfo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
   </div>
 </div>

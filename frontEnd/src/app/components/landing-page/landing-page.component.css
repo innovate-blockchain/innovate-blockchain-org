@@ -11,10 +11,10 @@ form {
   line-height: 80%;
 }
 
-#subtitle {
+.subtitle {
   color : black;
-  font-size: 15px;
-  padding-top: 0px;
+  font-size: 17px;
+  padding-top: 5px;
   margin: 0;
   font-family: 'Regular';
 }
@@ -27,64 +27,68 @@ form {
   font-size: 8px;
 }
 #statement {
-  font-size: 1.2em;
+  font-size: 20px;
   text-align: right;
   padding: 5%;
   color: black;
   font-family: 'Regular';
+  font-weight: bold;
 }
 
 #submitButton {
   background-color: black;
   color: white;
+  height: 32px;
   float: right;
 }
 #emailInput {
-  color: white;
-  border-style: solid;
-  border-color: gray;
-  height: 37px;
+  color: black;
+ border:0.5px solid black;
+  height: 32px;
   width: 250px;
   float: right;
+  margin:0;
+  padding-left: 3%;
+  font-size: 15px;
 }
 p#statement {
   margin-bottom: 8%;
 }
-#blockchainVideoHeader[_ngcontent-c1] {
-  background-color: #2f3690;
+#blockchainVideoHeader{
+  background-color:rgba(5, 5, 139, 1);
   text-align: left;
   vertical-align: middle;
   padding: 2%;
-  font-size: 1.2em;
+  font-size: 24px;
   margin: 0;
   padding-left: 50px;
-  color: white;
 }
-h4#blockchainVideoHeader {
-  color: grey;
+.blockchainVideo {
+  width:70%;
 }
-#blockchainVideo {
-  height: 350px;
-  width: 650px;
-  position: absolute;
-  margin-left: 25%;
-  margin-top: 5%;
-
+.test {
+  padding-top:50px;
+  height: 400px;
+  display:flex;
 }
-
-#blockchainVideoDiv {
+.blockchainVideoDiv {
   height: 550px;
   margin-bottom: 3%;
-  background: #2E313A;
-
-}
-
-.blockChainImage {
+  background: #2E313A; 
   width: 100%;
+}
+.videoHeaderDiv {
+  background: rgb(2, 2, 129);
+  color:white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin:0px;
+}
+.blockChainImage {
+  width: 120%;
   height: 160px;
   margin-top: 10px;
 }
-
 .blockChain {
   padding: 5%;
   padding-left: 8%;
@@ -97,7 +101,14 @@ h4#blockchainVideoHeader {
 }
 .termsText {
   float: right;
+  padding-top:1%;
+  font-weight: 200%;
 }
 hr {
   margin-bottom: 0px !important;
 }
+/* .landingMainDiv {
+  width: 100%;
+  padding:0px;
+  margin:0px;
+} */

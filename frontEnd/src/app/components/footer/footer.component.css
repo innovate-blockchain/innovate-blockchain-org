@@ -1,9 +1,9 @@
 .mainDiv {
-    display: flex;
     font-size: 10px;
     background-color: #2E313A;
     color: white;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .bis {
     font-size: 7px;

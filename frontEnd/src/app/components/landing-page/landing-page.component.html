@@ -10,14 +10,14 @@
       </div>
     </div>
     <hr>
-    <p id="subtitle">Leaders in blockchain education.</p>
+    <div class="subtitle">Leaders in blockchain education.</div>
   </div>
 
   <div class="rightBlockNewsletter col-md-5 col-sm-12 col-xs-5 ">
 
     <form matFormField>
       <div id="statement">
-        <div id="textDiv">
+        <div>
           <div>Join our email list for</div>
           <div>organizational updates and early</div>
           <div>access to our educational content</div>
@@ -25,7 +25,7 @@
       </div>
       <div id="email">
         <button id="submitButton" mat-button>Submit</button>
-        <input id="emailInput" matInput placeholder="Email" />
+        <input id="emailInput" matInput placeholder="EMAIL" />
         <p class="termsText">By clicking submit, you are agreeing to our
           <u>Terms of Service</u>.</p>
         <br>
@@ -33,12 +33,16 @@
 
     </form>
   </div>
+  <div class="blockchainVideoDiv">
+    <div class="px-sm-5 videoHeaderDiv">
+      <h4>What is Blockchain Technology...</h4>
+    </div>
+    <div class="test align-self-center justify-content-center">
+      <iframe class="blockchainVideo" src="https://www.youtube.com/embed/A6XUVjK9W4o" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
 
-<div id="blockchainVideoDiv">
-  <h4 id="blockchainVideoHeader">What is Blockchain Technology...</h4>
-  <iframe id="blockchainVideo" src="https://www.youtube.com/embed/A6XUVjK9W4o" frameborder="0" allowfullscreen></iframe>
-</div>
 <app-landing-page-about></app-landing-page-about>
 <app-landing-page-groups></app-landing-page-groups>
 
